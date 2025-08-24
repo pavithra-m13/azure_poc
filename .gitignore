@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs / Debug
+*.log
+*.out
+*.err
+*.pid
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+test-results/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.tar
+*.tmp
+.dockerignore
+
+# Environment / Secrets
+*.env
+.env.*
+secrets.json
+
+# Azure / Cloud
+*.azure
+*.azcli
+*.acr
+*.cr
+*.key
+*.pem
+*.cer
+
+# Project specific
+scripts/*.sh~
+scripts/*.log
